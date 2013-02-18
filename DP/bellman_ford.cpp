@@ -53,7 +53,7 @@ void bellman_ford(Graph *graph, int src){
 	for(int i =0; i < graph->V; i++)
 		cout<<i<<" : "<<dist[i]<<endl;
 }
-int bfmain()
+int main()
 {
     /* Let us create the graph given in above example */
     int V = 5;  // Number of vertices in graph
